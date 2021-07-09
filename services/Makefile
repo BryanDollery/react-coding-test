@@ -8,3 +8,6 @@ up:
 
 logs:
 	docker-compose logs
+
+init:
+	cd messages && npm i && cd ../people && npm i && cd ../presence && npm i
