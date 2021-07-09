@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 app.get("/presence", async (req, res) => {
   res.send(
     JSON.stringify({
-      people: [
+      presence: [
         {
           id: 11,
           personId: 1,
@@ -38,7 +38,6 @@ app.get("/presence", async (req, res) => {
             status: "available",
             reason: "available"
           }
-
         },
         {
           id: 12,
