@@ -1,6 +1,6 @@
 # React Coding Test
 
-The aim of this short test is to see how you code with react under pressure. We will be able to look at github to see when you forked this repo and when you finally submitted your solution. We expect this to take no more than an hour or so, but you should probably read through this repo thoroughly and ensure that you have your tools installed correctly before forking it.
+The aim of this short test is to see how you code with react under pressure. We will be able to look at github to see when you instantiated this repo and when you finally submitted your solution. We expect this to take no more than an hour or so, but you should probably read through this repo thoroughly and ensure that you have your tools installed correctly before instantiating it.
 
 The requirement is that you build an interactive react app that surfaces data from three REST services. This data represents `people`, their availability (`presence`) and some chat `messages` between them. These microservices are read-only - you aren't expected to build a fully functioning chat application.
 
@@ -26,7 +26,7 @@ This is the basic layout showing the two columns with Person 1 selected. Obvious
 ```
 
 ## Code
-The repo presented here should be forked and your answers/code uploaded to a public repo in your own github account.
+This repo is a template that you shoud instantiate and your answers/code should be pushed to a public repo in your own github account.
 
 There are two folders in the root of the repo, `services` and `chat`.
 ### Services (node/docker)
